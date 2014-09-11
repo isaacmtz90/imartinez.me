@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Isaac Martinez</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Isaac Martinez">
+	<meta name="keywords" content="Isaac Martinez,developer,Honduras, html, jQuery">
+	<meta name="author" content="Isaac Martinez">
+	<link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="/assets/stylesheets/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" type="text/css"  href="/assets/stylesheets/jquery.vegas.css" />
+	<link rel="stylesheet" href="/assets/stylesheets/animate.css">
+	<script type="text/javascript" src="/assets/scripts/jquery-1.6.2.min.js"></script><style type="text/css"></style>
+	<script type="text/javascript" src="/assets/scripts/jquery.vegas.min.js"></script>
+	
+	
+</head>	
+
+
+<body>
+<div class="content">
+	<div class="logo"><h1><a href="#" title="Isaac Martinez">Isaac Martinez</a></h1></div>
+	<div>
+	<p><strong>I'm Isaac Martínez.</strong> Web developer, amateur designer &amp; gamer, living in Honduras.</p>
+	<ul>
+		<li class="twitter"><a href="http://twitter.com/saevo_" title="Twitter"></a></li>
+		<li class="facebook"><a href="http://facebook.com/iScream23" title="Facebook"></a></li>
+		<li class="instagram"><a href="http://instagram.com/isaacmtz90" title="Instagram"></a></li>
+		<li class="linkedin"><a href="http://www.linkedin.com/pub/isaac-martinez/7b/198/527/" title="LinkedIn"></a></li>
+		<li class="github"><a href="https://github.com/isaacmtz90" title="Github"></a></li>
+		<li class="email"><a href="mailto:imtz90b@gmail.com" title="Email"></a></li>
+		
+		
+		
+	</ul>
+	<div id="bsap_1480" class="bsaPROrocks" data-serve="C6AD42V"></div>
+</div>
+<script type="text/javascript">
+$( function() {
+	$.vegas('slideshow', {
+	  delay:7000,
+		backgrounds:[
+			
+			{ src:'/assets/images/background2.jpg',fade:1000 },
+			{ src:'/assets/images/background3.jpg',fade:1000 },
+			{ src:'/assets/images/background2.jpg',fade:1000 },
+			{ src:'/assets/images/background4.jpg',fade:1000 }
+		]
+		})('overlay',{
+			src:'/assets/images/11.png'
+		
+		});
+	});
+  $(document).ready(function() { 
+		
+		$(".logo h1 a").css("display","none");
+		$(".logo h1 a").fadeIn(1000);
+		$(".content ul").children().css("opacity","0");
+		
+		$(".content p").addClass("animated flipInX");
+		
+		$(".content li:nth-child(6)").addClass('animated rotateInUpRight').show();
+		setTimeout(function(){ $(".content li:nth-child(5)").addClass('animated rotateInUpRight').css("opacity","1"); }, 500);
+		setTimeout(function(){ $(".content li:nth-child(4)").addClass('animated rotateInUpRight').css("opacity","1"); }, 1000);
+		setTimeout(function(){ $(".content li:nth-child(3)").addClass('animated rotateInUpRight').css("opacity","1"); }, 1500);
+		setTimeout(function(){ $(".content li:nth-child(2)").addClass('animated rotateInUpRight').css("opacity","1"); }, 2000);
+		setTimeout(function(){ $(".content li:nth-child(1)").addClass('animated rotateInUpRight').css("opacity","1"); }, 2500);
+		
+		
+	});
+	$(".logo h1 a").hover(function(){
+	$(this).addClass('animated tada');
+		//$(this).addClass('animated rollOut');
+	}, function(){
+		$(this).removeClass('animated tada');
+		//$(this).addClass('animated rollIn');
+	});
+	
+	
+</script>
+
+
+	
+</body></html>
