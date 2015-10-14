@@ -48,7 +48,7 @@ html { width: 100%; -webkit-font-smoothing: antialiased; }
 body { width: 100%; padding: 0; margin: 0; background: #000; text-align: center; }
 
 p { font-size: 1.2em; line-height: 1.35em; color: #fff; padding: 0; margin: 60px 0 40px; font-family: 'helvetica neue', helvetica, arial, sans-serif; font-weight: 200; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); }
-p strong { font-weight: 500; }
+p strong { font-size: 2em; font-weight: 500; }
 
 a { color: #ffcc00; text-decoration: none; }
 a:hover { color: #fff; -webkit-transition:all 0.2s ease-in-out; }
@@ -63,7 +63,6 @@ ul li a:hover { opacity: 1;
     transform: scale(1.5,1.5);
 	
 	}
-ul li.twitter a { width: 33px; height: 33px; display: block; background: transparent url('/assets/images/twitter.png') top center no-repeat; text-indent: -9999px;background-size: contain; }
 ul li.facebook a { width: 33px; height: 33px; display: block; background: transparent url('/assets/images/facebook.png') top center no-repeat; text-indent: -9999px; background-size: contain;}
 ul li.linkedin a { width: 33px; height: 33px; display: block; background: transparent url('/assets/images/linkedin.png') top center no-repeat; text-indent: -9999px; background-size: contain;}
 ul li.github a { width: 33px; height: 33px; display: block; background: transparent url('/assets/images/Github.png') top center no-repeat; text-indent: -9999px; background-size: contain;}
